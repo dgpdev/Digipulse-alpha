@@ -7,10 +7,16 @@
   ],
   "maxOfferConcurrency": 3,
   "bridges": [{
-    "url": "http://91.121.64.34:2985",
+    "url": "http://127.0.0.1:2985",
     "extendedKey": "xpub6ABDixD5jpQUDWNzHFh2WgAuANKDeTHmeXqLYaXsUuzpvfN8ZvbfBMXXbYkoq1kCvvpbiNE9zAzeC9VQh8dMNDb8mjc8cUh8F4jaUmFkyjr"
   }],
-  "seedList": [],
+  "seedList": [
+  "storj://127.0.0.1:4000/337472da3068fa05d415262baf4df5bada8aefdc",
+    "storj://127.0.0.1:4001/b2e1173bf733aeaacf79bf73a5a65bc5a912d923",
+    "storj://127.0.0.1:4002/b78c3ad6007e316e38a2bab0d567a617f6b98fe6",
+    "storj://127.0.0.1:4003/17fd5bf43cc8959b771ca5a83b38e9ed4bcdf0b7",
+    "storj://127.0.0.1:4004/933da501e4e18ee0881ad46bc8040d1a4863e3fa",
+    "storj://127.0.0.1:4005/495d86ed0f833a591a5f936d85d23defe776abff"],
   "rpcAddress": "127.0.0.1",
   "rpcPort": 9003,
   "doNotTraverseNat": false,
