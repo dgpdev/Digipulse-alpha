@@ -10,7 +10,7 @@
     "storj-lib": "storj/core",
     "storj-mongodb-adapter": "storj/mongodb-adapter",
     "storj-service-error-types": "storj/service-error-types",
-    "storj-service-mailer": "storj/service-mailer",
+    "storj-service-mailer": "dgpdev/service-mailer",
     "storj-service-middleware": "storj/service-middleware",
     "storj-service-storage-models": "storj/service-storage-models",
     "storjshare-daemon": "storj/storjshare-daemon"
