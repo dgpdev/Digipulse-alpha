@@ -4,7 +4,7 @@
     "mongoOpts": {}
   },
   "server": {
-    "host": "localhost",
+    "host": "127.0.0.1",
     "port": 80,
     "timeout": 240000,
     "ssl": {
@@ -14,12 +14,12 @@
       "redirect": 80
     },
     "public": {
-      "host": "localhost",
+      "host": "127.0.0.1",
       "port": 80
     }
   },
   "complex": {
-    "rpcUrl": "http://localhost:8081",
+    "rpcUrl": "http://127.0.0.1:8081",
     "rpcUser": "user",
     "rpcPassword": "pass"
   },
@@ -37,7 +37,7 @@
     "from": "user@domain"
   },
   "redis": {
-    "host": "localhost",
+    "host": "127.0.0.1",
     "port": 6379
   },
   "application": {
