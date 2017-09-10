@@ -21,7 +21,7 @@
       },
       "maxTunnels": 0,
       "seedList": [],
-      "bridgeUri": "http://127.0.0.1:80",
+      "bridgeUri": "http://127.0.0.1:2985",
       "maxConnections": 250
     }
   }
