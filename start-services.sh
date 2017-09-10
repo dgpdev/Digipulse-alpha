@@ -22,5 +22,9 @@ pm2 start -n landlord $DIR/digipulse/node_modules/.bin/storj-complex -- -c $DIR/
 #nodes
 pm2 start -n renter-1 $DIR/digipulse/node_modules/.bin/storj-complex -- -c $DIR/digipulse/config/complex/renter-1.json
 pm2 start -n renter-2 $DIR/digipulse/node_modules/.bin/storj-complex -- -c $DIR/digipulse/config/complex/renter-2.json
+pm2 start -n renter-3 $DIR/digipulse/node_modules/.bin/storj-complex -- -c $DIR/digipulse/config/complex/renter-3.json
+pm2 start -n renter-4 $DIR/digipulse/node_modules/.bin/storj-complex -- -c $DIR/digipulse/config/complex/renter-4.json
+pm2 start -n renter-5 $DIR/digipulse/node_modules/.bin/storj-complex -- -c $DIR/digipulse/config/complex/renter-5.json
+pm2 start -n renter-6 $DIR/digipulse/node_modules/.bin/storj-complex -- -c $DIR/digipulse/config/complex/renter-6.json
 
 
