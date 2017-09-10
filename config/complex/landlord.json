@@ -1,0 +1,19 @@
+{
+  "type": "Landlord",
+  "opts": {
+    "logLevel": 4,
+    "amqpUrl": "amqp://127.0.0.1",
+    "amqpOpts": {},
+    "mongoUrl": "mongodb://127.0.0.1:27017/storj-sandbox",
+    "mongoOpts": {},
+    "serverPort": 8081,
+    "serverOpts": {
+      "certficate": null,
+      "key": null,
+      "authorization": {
+        "username": "user",
+        "password": "pass"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "Renter",
+  "opts": {
+    "logLevel": 4,
+    "amqpUrl": "amqp://localhost",
+    "amqpOpts": {},
+    "mongoUrl": "mongodb://localhost:27017/storj-sandbox",
+    "mongoOpts": {},
+    "networkPrivateExtendedKey": "/dgpdev/digipulse/config/complex/hd-private.key",
+    "networkIndex": 3,
+    "totalRenters": 6,
+    "renterOverlap": 1,
+    "networkOpts": {
+      "rpcPort": 4002,
+      "rpcAddress": "127.0.0.1",
+      "doNotTraverseNat": true,
+      "tunnelServerPort": 5002,
+      "tunnelGatewayRange": {
+        "min": 0,
+        "max": 0
+      },
+      "maxTunnels": 0,
+      "seedList": [],
+      "bridgeUri": "http://127.0.0.1:8080",
+      "maxConnections": 250
+    }
+  }
+}
