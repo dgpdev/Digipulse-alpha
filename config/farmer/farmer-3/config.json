@@ -1,0 +1,40 @@
+{
+  "paymentAddress": "1EkMi5CFSkPY8jeAdfu3y1tUPCERQAf9xV",
+  "opcodeSubscriptions": [
+    "0f01020202",
+    "0f02020202",
+    "0f03020202"
+  ],
+  "maxOfferConcurrency": 16,
+  "bridges": [{
+    "url": "http://localhost:8080",
+    "extendedKey": "xpub6ABDixD5jpQUDWNzHFh2WgAuANKDeTHmeXqLYaXsUuzpvfN8ZvbfBMXXbYkoq1kCvvpbiNE9zAzeC9VQh8dMNDb8mjc8cUh8F4jaUmFkyjr"
+  }],
+  "seedList": [
+    "storj://localhost:4000/337472da3068fa05d415262baf4df5bada8aefdc",
+    "storj://localhost:4001/b2e1173bf733aeaacf79bf73a5a65bc5a912d923",
+    "storj://localhost:4002/b78c3ad6007e316e38a2bab0d567a617f6b98fe6",
+    "storj://localhost:4003/17fd5bf43cc8959b771ca5a83b38e9ed4bcdf0b7",
+    "storj://localhost:4004/933da501e4e18ee0881ad46bc8040d1a4863e3fa",
+    "storj://localhost:4005/495d86ed0f833a591a5f936d85d23defe776abff"
+  ],
+  "rpcAddress": "127.0.0.1",
+  "rpcPort": 9003,
+  "doNotTraverseNat": false,
+  "maxTunnels": 0,
+  "maxConnections": 150,
+  "tunnelGatewayRange": {
+    "min": 4001,
+    "max": 4003
+  },
+  "joinRetry": {
+    "times": 3,
+    "interval": 5000
+  },
+  "offerBackoffLimit": 4,
+  "networkPrivateKey": "817862ddd865be0749589d442cceae914d5cfd3ec0e039cca3cd5f5026c9a880",
+  "loggerVerbosity": 4,
+  "storagePath": "/root/config/storj-share/farmer-3",
+  "storageAllocation": "256GB",
+  "enableTelemetryReporting": false
+}

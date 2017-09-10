@@ -48,3 +48,6 @@ echo "--------- Begin dependencies installation ---------"
 npm install
 echo "----------------------------------------------------"
 echo
+
+# Forward port 80 to application frontend 
+sudo iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 2985
