@@ -13,7 +13,7 @@ sudo service rabbitmq-server start
 sudo service mongod start 
 
 #bridge
-pm2 start -n bridge $DIR/Digipulse-alpha/node_modules/.bin/storj-bridge -- -c $DIR/Digipulse-alpha/config/brige/config.json
+pm2 start -n bridge $DIR/Digipulse-alpha/node_modules/.bin/storj-bridge -- -c $DIR/Digipulse-alpha/config/brige/testnet.json
 pm2 start -n monitor $DIR/Digipulse-alpha/node_modules/.bin/storj-monitor -- -c $DIR/Digipulse-alpha/config/brige/monitor.json
 
 #landlord
